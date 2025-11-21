@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sarah Johnson Portfolio</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">SJ</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Haasini Kolisetty</h1>
+    <h2>Full Stack Developer</h2>
+    <p>Creating beautiful, functional web experiences with modern technologies</p>
+    <div class="cta-buttons">
+      <button onclick="scrollToSection('projects')">View My Work</button>
+      <button onclick="scrollToSection('contact')">Get In Touch</button>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-content">
+      <div class="graphic">👩‍💻</div>
+      <div class="text">
+        <h2 style="color: #b220f7;">About Me</h2>
+        <p>Hello! I'm Haasini</p>
+        <p>I'm a passionate full-stack developer with 1+ years of experience creating digital solutions that make a difference. I love turning complex problems into simple, beautiful, and intuitive designs.</p>
+        <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through blog posts and mentoring.</p>
+        <div class="skills">
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>Node.js</span>
+          <span>Python</span>
+          <span>MongoDB</span>
+          <span>CSS3</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <script>
+    function scrollToSection(id) {
+      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+
+</body>
+</html>

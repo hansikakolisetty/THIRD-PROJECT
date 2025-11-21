@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #6a11cb, #b425fc);
+  color: white;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.nav-links a.active {
+  border-bottom: 2px solid white;
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cta-buttons button {
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: white;
+  color: #a225fc;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.about {
+  background-color: white;
+  color: black;
+  padding: 4rem 2rem;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.graphic {
+  font-size: 5rem;
+  background-color: #a01efe;
+  border-radius: 75px;
+  padding: 20px;
+}
+
+.text {
+  max-width: 600px;
+}
+
+.skills span {
+  display: inline-block;
+  background-color: #b220f7;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
